@@ -1,6 +1,6 @@
 # PixelLibDocker
 
-Tools to install PixelLib on Nvidia Docker for custom Training.
+Tools to install [PixelLib](https://github.com/ayoolaolafenwa/PixelLib) on Nvidia Docker for custom Training.
 Follow this guide to setup [Nvidia Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker).
 Follow this guide to setup [Portainer](https://docs.portainer.io/start/install/server/docker/linux) to make life easier.
 
