@@ -10,7 +10,7 @@ RUN apt install libgl1-mesa-glx -y
 RUN apt install libglib2.0-0 -y
 RUN ~/anaconda3/bin/conda install -c anaconda tensorflow-gpu==2.4.1
 RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
-RUN pip3 uninstall scikit-image
-RUN pip3 install scikit-image=0.14.2
+#RUN pip3 uninstall scikit-image
+RUN pip3 install --no-input scikit-image==0.14.2
 
 EXPOSE 8888
