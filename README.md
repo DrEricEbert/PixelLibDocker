@@ -1,8 +1,8 @@
 # PixelLibDocker
 
 Tools to install [PixelLib](https://github.com/ayoolaolafenwa/PixelLib) on Nvidia Docker for custom Training.
-Follow this guide to setup [Nvidia Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker).
-Follow this guide to setup [Portainer](https://docs.portainer.io/start/install/server/docker/linux) to make life easier.
+Follow this guide to setup [Nvidia Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+and optional setup [Portainer](https://docs.portainer.io/start/install/server/docker/linux) to make life easier.
 
 Run these Scripts:
  * Run \CudaAnaconda\runSetup to obtain nvidia/cuda:10.2-cudnn8-runtime-ubuntu18.04 container and install Anaconda3-2022.10-Linux-x86_64.sh in it.
