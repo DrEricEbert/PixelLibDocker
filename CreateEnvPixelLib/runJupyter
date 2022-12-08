@@ -1,0 +1,5 @@
+docker run -it -p 8888:8888 ericebert/pixellibenv:latest
+
+echo Host machine: docker run -it -p 8888:8888 image:version
+echo Inside the Container : jupyter lab --ip 0.0.0.0 --no-browser --allow-root
+echo Host machine access this url : localhost:8888/
