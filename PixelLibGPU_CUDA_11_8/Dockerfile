@@ -6,7 +6,7 @@ RUN apt update && apt upgrade -y && apt install --no-install-recommends -y build
 RUN wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh -O ~/anaconda.sh --no-check-certificate
 RUN bash ~/anaconda.sh -b -p ~/anaconda3 -f
 RUN apt clean && rm -rf /var/lib/apt/lists/*
-RUN ~/anaconda3/bin/conda create --name PixelLib python=3.10 pip setuptools jupyterlab
+RUN ~/anaconda3/bin/conda create --name PixelLib python=3.9 pip setuptools jupyterlab
 RUN ~/anaconda3/bin/conda env list
 RUN ~/anaconda3/bin/conda init --all --system --verbose
 #https://pythonspeed.com/articles/activate-conda-dockerfile/
