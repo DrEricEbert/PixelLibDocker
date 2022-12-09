@@ -12,3 +12,4 @@ Run these Scripts:
  * Run \PixelLib\runSetup to create a container with Tensorflow-GPU 2.4.1 and PyTorch 1.7.1 and the stuff required to run PixelLib 0.7.1 for custom training.
  
 In case of Problems f.e. with current Ampere CPUs (f.e. RTX30...) use only the PixelLibCPU directory. CUDA <=10.2 has [issues](https://docs.nvidia.com/cuda/ampere-compatibility-guide/index.html) in support of the Ampere architecture You'll get a working but slower CPU training environment.
+To check if the cutting edge versions of PixelLib are working for the task use PixelLibGPU_CUDA_11_8 and adapt the Dockerfile to current versions.
