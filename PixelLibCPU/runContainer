@@ -1,0 +1,9 @@
+echo **************************How To ********************
+echo Host machine: docker run -it -p 8888:8888 -v /home/eric/gits/:/app/gits/ ericebert/pixellib:latest
+echo !!!
+echo Inside the Container : conda activate PixelLib
+echo Inside the Container : jupyter lab --ip 0.0.0.0 --no-browser --allow-root
+echo !!!
+echo Host machine access this url : localhost:8888/
+echo **************************End How To ********************
+docker run -it -p 8888:8888 -v /home/eric/gits/:/app/gits/ ericebert/pixellib:latest
