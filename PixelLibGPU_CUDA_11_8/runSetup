@@ -1,0 +1,2 @@
+docker build -t ericebert/pixellib_cuda_11_8:latest .
+
